@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Challenge 1 - Encriptador</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="script.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="logo">
+        <img class="logoImg" src="./imges/logo-aluraespanhol.svg">
+        <h1 class="tittle">ENCRIPTADOR DE MENSAJES</h1>
+        <img  class="logo2" src="./imges/Fondo.png" alt="">
+       
+      </div>
+      <div class="left">
+          <input class="text-input" type="text" name="input-texto" id="inputtexto" placeholder="Ingrese el texto aqui">
+      </div>
+      <div class="right">
+        <img src="./imges/munecobusca.png" id="imgDer">
+        <h1 id="texto">Ningún mensaje fue encontrado</h1>
+        <textarea id="texto2" >Ingresa el texto que desees encriptar o desencriptar.</textarea>
+        
+      </div>
+      <div class="left-button">
+        <p class="texto4">Solo letras minusculas y sin acento</p>
+        <button type="button" id="btn-encriptar" onclick="encriptar()">Encriptar</button>
+        <button type="button" id="btn-desencriptar" onclick="desencriptar()">desencriptar!</button>
+        <button type="button" id="copiar" onclick="copia()">Copiar</button>
+      </div>
+    </div>
+   
+  </body>
+</html>
